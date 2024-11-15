@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.page {
+    padding: 50px;
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.one_row{
+    display: flex;
+}
+
+.two_rows{
+    display: flex;
+    gap: 15px ;
+}
+
+
+
+.two_rows label {
+    white-space: nowrap;
+    font-weight: bold;
+} 
+
+.agree-checkbox {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}
+
+.paragraph_agree {
+    margin: 0; 
+    font-size: 14px; 
+    text-align: left; 
+}
+
+
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.two_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+
+.register {
+    background-color: rgb(0, 94, 255);
+}
+
+.Sign-up {
+    background-color: rgb(116, 200, 116);
+}
+
+.register_checkbox {
+    background-color: #2196F3;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1px;
+}
+
+.terms_conditions {
+    color: dodgerblue;
+}
+
+@media (max-width: 480px) {
+  .form__buttons {
+    flex-direction: column;
+  }
+}
